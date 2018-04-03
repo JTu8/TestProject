@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TestProject</string>
+    <string name="hae_kaikki">Hae kaikki</string>
+    <string name="lis">Lisää</string>
+    <string name="lis_k_ytt_j">Lisää käyttäjä</string>
+    <string name="k_ytt_j_tunnus">Käyttäjätunnus</string>
+    <string name="nimi">Nimi</string>
+    <string name="salasana">Salasana</string>
+    <string name="lis_tieto">Lisätieto</string>
+    <string name="hae">Hae</string>
+</resources>

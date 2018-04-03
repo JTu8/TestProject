@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddUser">
+
+    <EditText
+        android:id="@+id/editTextKayttajatunnus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:ems="10"
+        android:hint="@string/k_ytt_j_tunnus"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextNimi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editTextKayttajatunnus"
+        android:ems="10"
+        android:hint="@string/nimi"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextSalasana"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editTextNimi"
+        android:ems="10"
+        android:hint="@string/salasana"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextLisatieto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editTextSalasana"
+        android:ems="10"
+        android:hint="@string/lis_tieto"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="220dp"
+        android:text="@string/lis_k_ytt_j" />
+</RelativeLayout>
